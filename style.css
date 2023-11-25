@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 svg {
   height: 10vh;
   width: auto;
@@ -9,14 +11,16 @@ svg {
   width: auto;
 }
 
-.pink {
+.theme {
   background-color: #ffbee1;
   border-color: #ffbee1;
 }
 
-.pink:hover {
+.theme:hover, .theme:focus, .theme:active {
   background-color: #fc6aa7;
   border-color: #fc6aa7;
+  /* box-shadow: none;
+  outline: none; */
 }
 
 .profile {
@@ -31,3 +35,13 @@ a {
 a:hover {
   color: #ffbee1;
 }
+
+/* .row {
+  flex: 0 0 33.333%;
+  display: flex;
+  padding: 10px; /* gutter width */
+}
+
+.card {
+  flex: 0 0 100%;
+} */
