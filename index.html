@@ -1,154 +1,271 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Nabila Ayaba">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Nabila Ayaba, Full Stack Developer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-
-
-
-    <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- <link href="heroes.css" rel="stylesheet"> -->
+    <!-- FONT AWESOME SCRIPT -->
+    <script
+      src="https://kit.fontawesome.com/11900b54c1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-
-<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Passionate full stack developer located in Hyattsville, MD.</p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <!-- <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li> -->
-            <li>(301) 960-3985</li>
-            <li><a href="mailto:nabila.ayaba@gmail.com" class="text-white">Email me</a></li>
-            <li><a href="https://www.linkedin.com/in/nabila-ayaba/" class="text-white">Connect on LinkedIn</a></li>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+            /></svg
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Nabila Ayaba</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+    </nav>
 
-<main>
+    <header class="bg-light">
+      <div class="container text-center py-5">
+        <h1>Hi, I'm Nabila</h1>
+        <p class="lead">Your resident barista-turned-software engineer ☕️</p>
+        <!-- <a class="btn btn-primary btn-lg" href="#about">Learn More</a> -->
+        <a
+          href="resume-nabila_ayaba.pdf"
+          class="btn btn-primary my-2 pink"
+          target="”_blank”"
+          >Download My Resume</a
+        >
+        <a
+          href="https://www.linkedin.com/in/nabila-ayaba/"
+          class="btn btn-secondary my-2"
+          target="”_blank”"
+          >Find Me on LinkedIn</a
+        >
+      </div>
+    </header>
 
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Passionate full stack developer with expertise in Javascript and Python.</h1>
-        <p class="lead text-muted">
-        Experienced coding bootcamp graduate with extensive background in full stack web development. Specializes in JavaScript and Python. Professional strengths include creative problem-solving, written and verbal communication, and time management. Detail-oriented mindset from 5+ years of experience as a retail manager.
-        </p>
+    <section id="about">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Me</h2>
+            <p>
+              I'm Nabila Ayaba, an enthusiastic software engineer with a
+              specialty in the MERN stack, transitioning from a 9-year career at
+              Starbucks where I grew from Barista to Store Manager. While
+              pursuing my degree, I nurtured a passion for technology, kindled
+              in middle school with HTML and website building, which eventually
+              guided me to General Assembly’s SEI program. With over 7 years of
+              leadership experience managing large teams, I've expanded my
+              expertise to include Full-Stack Web Development, as well as
+              applying Scrum and Agile methodologies. My hobbies include
+              reading, collecting stationery, and indulging in jollof rice. My
+              journey from barista to tech educator and software developer
+              reflects my adaptability, continuous learning, and love for
+              tackling new technological challenges.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="profile-pic-pink.jpg"
+              class="img-fluid profile"
+              alt="Placeholder Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container py-5">
+        <h2>My Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img
+                src="https://via.placeholder.com/500x300"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" target="”_blank”" class="btn btn-primary pink"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img
+                src="https://via.placeholder.com/500x300"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" target="”_blank”" class="btn btn-primary pink"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img
+                src="spaceman.png"
+                class="card-img-top"
+                alt="Placeholder Image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spaceman</h5>
+                <p class="card-text">
+                  A galactic take on hangman, optimized for mobile.
+                  <a
+                    href="https://nayaba.github.io/spaceman/"
+                    target="”_blank”"
+                    class="btn btn-primary pink"
+                    >View Project</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-light">
+      <div class="container py-5">
+        <h2>My Skills</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">HTML</h5>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">CSS</h5>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Bootstrap</h5>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+      <div class="container py-5">
+        <h2>Contact Me</h2>
+        <form
+          action="mailto:nalayaba@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary pink">Submit</button>
+          <button type="reset" class="btn btn-secondary">Reset</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-light text-dark text-center py-3">
+      <div class="container">
+        <p>&copy; 2024 - Nabila Ayaba</p>
         <p>
-          <a href="https://file.io/6kZbKEwLdSjr" class="btn btn-primary my-2">Download my resume</a>
-          <a href="https://www.linkedin.com/in/nabila-ayaba/" class="btn btn-secondary my-2">Find me on LinkedIn</a>
+          Designed and developed by Nabila Ayaba &nbsp; | &nbsp;
+          <a href="#">Back to top</a>
         </p>
       </div>
-    </div>
-  </section>
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Fumblr</title><img src="https://i.imgur.com/myNmnEL.png"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Fumblr</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This social media site allows you to create blog posts and comment on other posts as well!  Fumblr was created using React, Mongoose, and Express.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://blobject-oriented-progammers.github.io/blob-squad-client/#/"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Dujo</title><img src="https://i.imgur.com/CBMwB3S.png"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Dujo</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">Dujo is short for digital bullet journal.  Dujo is a task management app created using JavaScript, Mongoose, and Express.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://nayaba.github.io/digital-bujo-client/"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Poco Grow</title><img src="https://i.imgur.com/BWo1S5y.png"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Poco</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">Poco Grow is an app designed to encourage growth, "little by little," through analog journaling and community.  Poco Grow was created using React, Django, and PostgreSQL.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://nayaba.github.io/poco_grow/#/"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-</main>
-
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1"></p>
-  </div>
-</footer>
-
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-
+    </footer>
+    <!-- Bootstrap JS bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

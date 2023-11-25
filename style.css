@@ -1,0 +1,33 @@
+svg {
+  height: 10vh;
+  width: auto;
+  fill: #ffbee1;
+}
+
+.navbar-brand svg {
+  height: 30px;
+  width: auto;
+}
+
+.pink {
+  background-color: #ffbee1;
+  border-color: #ffbee1;
+}
+
+.pink:hover {
+  background-color: #fc6aa7;
+  border-color: #fc6aa7;
+}
+
+.profile {
+  width: 60vmin;
+  height: auto;
+}
+
+a {
+  color: #fc6aa7;
+}
+
+a:hover {
+  color: #ffbee1;
+}
